@@ -16,14 +16,24 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5)), url("greenville-hero-image.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
+/* size of header for phone */
+@media (max-width: 480px)  {
+  h1 {
+    font-size: 5 rem;
+  }
+}
+/* size of header for tablet */
+@media (max-width: 481px) and (max-width: 767px) {
+  h1 {
+    font-size: 5 rem;
+  }
+}
+/* size of header for desktop */
+@media (min-width: 768px)  {
+  h1 {
+    font-size: 5 rem;
+  }
 }
 
 .hero-text {
